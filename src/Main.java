@@ -60,7 +60,7 @@ public class Main {
         }
         int one = 10;
         int two = 15;
-        int three = 20;
+        int three = 19;
         if (one >= two && one >= three) {
             System.out.println("Наибольшее число: " + one);
         } else if (two >= one && two >= three) {
