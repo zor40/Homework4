@@ -40,7 +40,7 @@ public class Main {
         int ageChild = 13;
         if (ageChild < 5) {
             System.out.println("Если возраст ребёнка " + ageChild + " , то он не может кататься на аттракционе.");
-        } else if (ageChild > 5 && ageChild < 14) {
+        } else if (ageChild >= 5 && ageChild <= 14) {
             System.out.println("Если возраст ребёнка " + ageChild + " , то он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя.");
         } else {
             System.out.println("Если возраст ребёнка " + ageChild + " , то он может кататься без сопровождения взрослого.");
@@ -65,26 +65,6 @@ public class Main {
         } else {
             System.out.println("Наибольшее число: " + three);
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
