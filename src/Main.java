@@ -21,8 +21,7 @@ public class Main {
         int speed = 55;
         if (speed > 60) {
             System.out.println("Придётся заплатить штраф.");
-        }
-        if (speed < 60) {
+        } else {
             System.out.println("Можно ездить спокойно.");
         }
         int agePerson = 18;
@@ -41,11 +40,9 @@ public class Main {
         int ageChild = 13;
         if (ageChild < 5) {
             System.out.println("Если возраст ребёнка " + ageChild + " , то он не может кататься на аттракционе.");
-        }
-        if (ageChild > 5 && ageChild < 14) {
+        } else if (ageChild > 5 && ageChild < 14) {
             System.out.println("Если возраст ребёнка " + ageChild + " , то он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя.");
-        }
-        if (ageChild > 14) {
+        } else {
             System.out.println("Если возраст ребёнка " + ageChild + " , то он может кататься без сопровождения взрослого.");
         }
         int carriageCapacity = 102;
