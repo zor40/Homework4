@@ -27,14 +27,11 @@ public class Main {
         int agePerson = 18;
         if (agePerson >= 2 && agePerson <= 6) {
             System.out.println("Если возраст человека " + agePerson + " , то ему нужно ходить в детский сад.");
-        }
-        if (agePerson >= 7 && agePerson <= 17) {
+        } else if (agePerson >= 7 && agePerson <= 17) {
             System.out.println("Если возраст человека " + agePerson + " , то ему нужно ходить в школу.");
-        }
-        if (agePerson >= 18 && agePerson <= 24) {
+        } else if (agePerson >= 18 && agePerson <= 24) {
             System.out.println("Если возраст человека " + agePerson + " , то его место в университете.");
-        }
-        if (agePerson > 24) {
+        } else if (agePerson > 24) {
             System.out.println("Если возраст человека " + agePerson + " , то ему пора ходить на работу.");
         }
         int ageChild = 13;
@@ -50,7 +47,7 @@ public class Main {
         int people = 80;
         if (people < 60) {
             System.out.println("Есть сидячие места.");
-        } else if (people < 102 && people > 60) {
+        } else if (people < carriageCapacity && people > seatsInTheCarriage) {
             System.out.println("Есть только стоячие места.");
         } else {
             System.out.println("Вагон забит полностью.");
@@ -58,13 +55,14 @@ public class Main {
         int one = 10;
         int two = 15;
         int three = 19;
-        if (one >= two && one >= three) {
+        if (one > two && one > three) {
             System.out.println("Наибольшее число: " + one);
-        } else if (two >= one && two >= three) {
+        } else if (two > one && two > three) {
             System.out.println("Наибольшее число: " + two);
         } else {
             System.out.println("Наибольшее число: " + three);
         }
+        
 
 
     }
